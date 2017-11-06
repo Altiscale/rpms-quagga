@@ -35,7 +35,7 @@ Name:		quagga
 Version:	1.0.0
 # Release version is extracted from configure.ac 
 # AC_INIT(Quagga, 1.0.0+cl3u10, [https://bugzilla.quagga.net])
-Release:        cl3u10%-alti%{?dist}
+Release:        cl3u10-1-alti%{?dist}
 License:	GPLv2+
 Group:      System Environment/Daemons
 Source0:	https://github.com/CumulusNetworks/quagga/archive/cmaster.zip
