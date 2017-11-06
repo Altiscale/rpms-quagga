@@ -55,6 +55,7 @@ BuildRequires:  json-c-devel
 BuildRequires:	gettext
 BuildRequires:	gettext-devel
 BuildRequires:	gettext-libs
+BuildRequires:  shadow-utils
 
 %if %with_snmp
 BuildRequires:	net-snmp-devel
