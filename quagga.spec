@@ -55,7 +55,6 @@ BuildRequires:  json-c-devel
 BuildRequires:	gettext
 BuildRequires:	gettext-devel
 BuildRequires:	gettext-libs
-BuildRequires:  shadow-utils
 
 %if %with_snmp
 BuildRequires:	net-snmp-devel
@@ -74,8 +73,9 @@ BuildRequires:  pam-devel
 # Initscripts > 5.60 is required for IPv6 support
 Requires:	initscripts >= 5.60
 Requires:	ncurses
-Requires:       json-c
+Requires: json-c
 Requires:	iproute
+Requires: shadow-utils
 %if %with_pam
 Requires:	pam
 %endif
